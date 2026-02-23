@@ -17,4 +17,11 @@ print("-------------------------")
 print("first three elements:", my_list[:3])
 print("last two elements:", my_list[-2:])
 print("-------------------------")
-
+#looping through a list
+print("elements in the list:")
+for element in my_list:
+    print(element)
+print("-------------------------")
+#Sum of elements in a list
+total = sum(my_list)
+print("sum of elements in the list:", total)
