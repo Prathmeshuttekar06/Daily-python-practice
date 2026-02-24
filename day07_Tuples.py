@@ -15,3 +15,7 @@ print("---------------------------")
 print("count of 2 in the tuple:", my_tuple.count(2))
 print("index of 3 in the tuple:", my_tuple.index(3))
 print("---------------------------")
+#slicing a tuple
+print("first three elements:", my_tuple[:3])
+print("last two elements:", my_tuple[-2:])
+print("---------------------------")    
