@@ -22,3 +22,18 @@ print("Cube of 5:", cube(5))
 add_lambda = lambda x,y: x+y
 print("Sum of 10 and 5 using lambda:", add_lambda(10,5))
 print("----------------------------")
+#higher order function
+def apply_operation(x,y,operation):
+    return operation(x,y)   
+print("Applying add operation:", apply_operation(10,5,add))
+print("Applying sub operation:", apply_operation(10,5,sub))
+print("Applying mul operation:", apply_operation(10,5,mul))
+print("Applying div operation:", apply_operation(10,5,div))
+print("----------------------------")
+#map function
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = list(map(lambda x: x**2, numbers))
+print("Squared numbers:", squared_numbers)
+cubed_numbers = list(map(lambda x: x**3, numbers))
+print("Cubed numbers:", cubed_numbers)
+print("----------------------------")
